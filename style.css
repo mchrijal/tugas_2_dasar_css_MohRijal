@@ -1,0 +1,23 @@
+button#lihat{
+  background: linear-gradient(152deg, #1c9fa0, #5b1786bf);
+  color: white;
+  padding: 10px 40px;
+  border-radius: 20px 4px;
+  border: none;
+}
+
+button#baca{
+  background: linear-gradient(152deg, hsl(0, 100%, 50%), red);
+  color: white;
+  padding: 10px 40px;
+  border-radius: 4px 20px;
+  border: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 1px);
+}
